@@ -75,7 +75,7 @@ export class App extends Component {
 
   render() {
     const visibleContacts = this.getVisibleContacts();
-    const { filter, contacts } = this.state;
+    const { filter } = this.state;
 
     return (
       <div className={css.container}>
